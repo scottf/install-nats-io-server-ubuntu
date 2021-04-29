@@ -9,4 +9,4 @@ runs:
       shell: bash
 branding:
   icon: 'blue'
-  color: 'gray-dark
+  color: 'gray-dark'
