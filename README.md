@@ -4,7 +4,7 @@ Github action to install the NATS.io server from the head default branch
 
 ## Notes
 
-* Works for runs-on: ubuntu-* 
+* Works for `runs-on: ubuntu-*`
 * Requires GO already setup. See example
 * Makes `nats-server` available in the path
 
