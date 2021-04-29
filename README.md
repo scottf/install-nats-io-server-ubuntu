@@ -20,7 +20,7 @@ jobs:
         with:
           go-version: 1.16.3
       - name: Install Nats Server
-        uses: scottf/install-nats-io-server-default-branch@v1
+        uses: scottf/install-nats-io-server-ubuntu@v1
       - name: Run the server
         run: nats-server -v
 ```
