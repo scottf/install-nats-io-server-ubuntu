@@ -22,5 +22,5 @@ jobs:
       - name: Install Nats Server
         uses: scottf/install-nats-io-server-default-branch@v1
       - name: Run the server
-        run: nats-server
+        run: nats-server -v
 ```
