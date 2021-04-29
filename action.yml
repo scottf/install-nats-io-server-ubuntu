@@ -1,0 +1,12 @@
+name: 'Install NATS.io Server Default Branch'
+description: 'Install the NATS.io Server default branch for use in your Github Actions'
+runs:
+  using: "composite"
+  steps:
+    - run: chmod +x $GITHUB_ACTION_PATH/install.sh
+      shell: bash
+    - run: $GITHUB_ACTION_PATH/install.sh
+      shell: bash
+branding:
+  icon: 'blue'
+  color: 'gray-dark
